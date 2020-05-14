@@ -4,4 +4,39 @@ ul {
 
 h1 {
     font-family:'Archivo Black';  
+    text-transform: lowercase;
 }
+h2 { 
+    font-family:'Archivo Black';  
+    text-transform: lowercase;
+}
+p{ 
+    text-transform: lowercase;
+}
+a{
+    text-decoration: none;
+    color: black; 
+}
+.n{
+    font-weight: bold;
+}
+.n:visited{ 
+    color: #2E86C1; 
+}
+ .header{
+    font-family:'Archivo Black';
+    background-color: white;
+    color: black;
+    border: 2px solid lightblue;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+  }
+
+  .header:hover {
+    background-color: lightblue;
+    color: white;
+    text-decoration: none;
+  }
