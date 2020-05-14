@@ -40,3 +40,34 @@ a{
     color: white;
     text-decoration: none;
   }
+
+  .content {
+    padding: 16px;
+   
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  .stickyHeader{
+      background-color:#2E86C1;
+      padding: 10px 16px;
+      display: inline-block;
+  }
+  .stickysMom{
+    text-align: center; 
+  }
+
+  .top-container {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+  
