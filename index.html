@@ -9,33 +9,40 @@
 </head>
 
 <body> 
-<div class = "top-container">
-<h1> hi, i'm gabriella miesner. 👋🏻 </h1> </div>
-<div class = "stickysMom">
-<div class = "stickyHeader" id = "stickyHeader">
-<div class = "header"><a href ="#who-i-am"> 👩🏻‍🎓 who i am 🎨 </a></div>
-<div class = "header"><a href ="#stuff-ive-done"> 👩🏻‍💻 stuff i've done 💾 </a></div> 
-<div class = "header"><a href ="#hire-me"> 💻 hire me! 📞 </a></div> 
-<div class = "header"><a href ="#resume"> 📄 resume 📋 </a></div>
+<div class = "header">
+<h1> hi, i'm gabriella miesner. 👋🏻 </h1> 
 </div>
+
+
+<div id = "navbar">
+<a href ="#who-i-am"> who i am   </a>
+
+<a href ="#stuff-ive-done"> stuff i've done   </a>
+
+<a href ="#hire-me">  hire me!  </a>
+
+<a href ="#resume"> resume </a>
 </div>
+
 <script>
-    window.onscroll = function() {myFunction()};
-    
-    var header = document.getElementById("stickyHeader");
-    var sticky = header.offsetTop;
-    
-    function myFunction() {
-      if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-      } else {
-        header.classList.remove("sticky");
-      }
-    }
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
     </script>
 <div class = "content">
+<br>
 <h2 id = "who-i-am"> 👩🏻‍🎓 who i am 🎨 </h2> 
 <p> first and foremost, i am a passionate beyond measure about the world, its problems, its beauties, all the knowledge it contains, and the wonderful people who live on it. i like coding and have been playing with code since abouth sixth grade. i will continue my formal education at missouri university of science and technology, studying computer science in the upcoming fall. i enjoy learning on my own, creating in whatever medium available to me, gobbling up books on every subject under the sun, and helping others. </p>
+<br>
 <h2 id = "stuff-ive-done"> 👩🏻‍💻 stuff i've done 💾 </h2>
 <p> last summer, i attended a cool summer camp called <a href = "https://www.kodewithklossy.com/" class = "n">kode with klossy</a>, where i learned a whole lot, made an mvp iOS app in swift, made some awesome friends, and began to see coding's true capabilities for social change. at my high school, i took a web programming class and learned the basics of html and css, but more importantly, got connected with some awesome folks at <a href = "https://www.slalom.com/home" class = "n">slalom</a>. together, we began brainstorming, wireframing, and coding a web application that my high school's admission team is scheduled to begin using next fall. a little after kode with klossy, i applied to another awesome program at <a href = "https://www.launchcode.org/" class = "n">launchcode</a> in st. louis, mo, called <a href = "https://www.launchcode.org/codergirl"class = "n">codergirl</a>. after i was accepted into codergirl, i learned javascript and java, made some projects, attended many study sessions at the gelateria, and made some awesome friends. right now, i am enrolled in a cool eight week program through launchcode called liftoff, where i am making a big, exciting project. in these eight weeks, i will create an mvp of my application, <a href = "https://gmiesner.github.io/sustain/" class = "n">sustain</a>, but have many ideas for improving it later. </p> 
 <h2 id = "hire-me"> 💻 hire me! 🖱  </h2> 
