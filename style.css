@@ -133,6 +133,6 @@ h1{text-align: center;
 }
 
 .portfolio{
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  margin-left: 30%; 
 }
