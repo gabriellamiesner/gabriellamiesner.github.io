@@ -133,7 +133,7 @@ h1{text-align: center;
   .socials{
     display: flex; 
     justify-content: column right;
-    margin-left: 82%;
+    margin-left: 75%;
   }
 
   /*  */
