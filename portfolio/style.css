@@ -1,0 +1,24 @@
+body{ 
+    color: #677284;
+}
+h1{ 
+    font-family: Poppins;
+    padding-right: 3rem; 
+}
+
+.header{ 
+    display:flex; 
+    flex-direction: row;
+    justify-content: center; 
+ 
+}
+
+.center { 
+    text-align: center;
+}
+
+.headshot{
+    border-radius:50%;
+    height:20rem;
+    padding-left: 1rem; 
+}
