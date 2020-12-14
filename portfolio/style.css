@@ -1,11 +1,25 @@
 body{ 
     color: #677284;
+    font-family: Poppins;
 }
 h1{ 
-    font-family: Poppins;
     padding-right: 3rem; 
 }
 
+h2{ 
+    color: #5C8AD0;
+}
+
+p{ 
+    font-size: 1.25rem;
+}
+
+.socials{
+   text-align: right
+}
+.social_icons{
+    height: 3rem; 
+}
 .header{ 
     display:flex; 
     flex-direction: row;
@@ -20,5 +34,14 @@ h1{
 .headshot{
     border-radius:50%;
     height:20rem;
+    padding-left: 1rem; 
+}
+
+.headshot_plus_text{
+    display: flex; 
+    flex-direction: row;
+}
+
+.about_me{
     padding-left: 1rem; 
 }
