@@ -2,6 +2,10 @@ body{
     color: #677284;
     font-family: Poppins;
 }
+a{
+text-decoration: none; 
+color: #677284; 
+}
 h1{ 
     padding-right: 3rem; 
 }
@@ -61,7 +65,7 @@ p{
     background-color: #5C8AD0;
     color: white; 
     padding: 3rem; 
-    border-radius: 20rem; 
+    border-radius: 2rem; 
 }
 .place_pic_description{
     display: flex; 
@@ -83,3 +87,23 @@ p{
     padding-left: 5rem; 
 }
 
+.project{ 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    padding: 7rem; 
+}
+.project_icons:hover{  
+    transform: scale(1.5);
+
+}
+.project_icons{
+    border-radius: 1rem; 
+}
+
+.project_bios{ 
+    background-color: #5C8AD0; 
+    color: white; 
+    padding: 1rem;
+    border-radius: 2rem;  
+}
