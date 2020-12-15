@@ -55,11 +55,21 @@ p{
 }
 
 .places_icon2{
-    padding-left: 10rem;
+    padding-left: 7rem;
 }
 
+.places_icon:hover{  
+    transform: scale(1.5);
+    padding-right: 2rem;
+    filter: grayscale(100%);
 
+}
+.places_icon2:hover{  
+    transform: scale(1.5);
+    padding-right: 2rem;
+    filter: grayscale(100%);
 
+}
 
 .place_description{
     background-color: #5C8AD0;
