@@ -1,20 +1,20 @@
-body{ 
+body{
     color: #677284;
     font-family: Poppins;
 }
 a{
-text-decoration: none; 
-color: #677284; 
+text-decoration: none;
+color: #677284;
 }
-h1{ 
-    padding-right: 3rem; 
+h1{
+    padding-right: 3rem;
 }
 
-h2{ 
+h2{
     color: #5C8AD0;
 }
 
-p{ 
+p{
     font-size: 1.25rem;
 }
 
@@ -22,100 +22,5 @@ p{
    text-align: right
 }
 .social_icons{
-    height: 3rem; 
-}
-.header{ 
-    display:flex; 
-    flex-direction: row;
-    justify-content: center; 
- 
-}
-
-.center { 
-    text-align: center;
-}
-
-.headshot{
-    border-radius:50%;
-    height:20rem;
-    padding-left: 1rem; 
-}
-
-.headshot_plus_text{
-    display: flex; 
-    flex-direction: row;
-}
-
-.about_me{
-    padding-left: 1rem; 
-}
-
-.places_icon{
-    padding-left: 5rem; 
-}
-
-.places_icon2{
-    padding-left: 7rem;
-}
-
-.places_icon:hover{  
-    transform: scale(1.5);
-    padding-right: 2rem;
-    filter: grayscale(100%);
-
-}
-.places_icon2:hover{  
-    transform: scale(1.5);
-    padding-right: 2rem;
-    filter: grayscale(100%);
-
-}
-
-.place_description{
-    background-color: #5C8AD0;
-    color: white; 
-    padding: 3rem; 
-    border-radius: 2rem; 
-}
-.place_pic_description{
-    display: flex; 
-    flex-direction: row;  */
-    justify-content:center;  
-}
-
-.description{ 
-    padding-top: 0rem;
-    padding-right: 5rem; 
-    padding-bottom: 5rem; 
-    padding-left: 5rem; 
-}
-
-.description2{ 
-    padding-top: -10rem;
-    padding-right: 5rem; 
-    padding-bottom: 5rem; 
-    padding-left: 5rem; 
-}
-
-.project{ 
-    display: flex; 
-    flex-direction: row; 
-    justify-content: center; 
-    padding: 7rem 7rem 2rem 7rem; 
-}
-.project_icons:hover{  
-    transform: scale(1.5);
-    padding-right: 2rem;
-    border-radius: 0rem; 
-
-}
-.project_icons{
-    border-radius: 1rem; 
-}
-
-.project_bios{ 
-    background-color: #5C8AD0; 
-    color: white; 
-    padding: 1rem;
-    border-radius: 2rem;  
+    height: 3rem;
 }
