@@ -1,7 +1,13 @@
 
-a{
-text-decoration: none;
-color: #677284;
+#bootstrap-overrides .link-primary{
+  color: #5C8AD0;
+  text-decoration: none;
+  font-size: 2.25rem;
+}
+
+.emphassi{
+  font-weight: 700;
+  color: #5C8AD0;
 }
 h1{
     padding-right: 3rem;
