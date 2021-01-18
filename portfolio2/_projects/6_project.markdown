@@ -1,77 +1,30 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
+title: Delta Negative Binomial
+description: Published in JFEC
+img: /assets/img/dnb.jpg
 ---
+{% include _links_library.md %}
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<script type="text/javascript">
+ function showhide(id) {
+    var e = document.getElementById(id);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+ }
+</script>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+With Istv&aacute;n Barra and [Siem Jan Koopman][SiemJanKoopman]. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+  
+> Bayesian dynamic modelling of high-frequency integer price changes. Based on the negative binomial difference model with stochastic volatility to allow for heavy tails and to address occurrences of jumps in tick by tick discrete prices changes.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<i class="fa fa-download fa-lg" aria-hidden="true"></i> PDF: <a class="page-link" href="{{ '/research/Barra, Borowska, Koopman - Bayesian Dynamic Modeling of High-Frequency Integer Price Changes.pdf' | prepend: site.baseurl | prepend: site.url }}">Bayesian Dynamic Modeling of High-Frequency Integer Price Changes</a>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+<i class="fa fa-sticky-note" aria-hidden="true"></i> <a href="javascript:showhide('longrun')">_Abstract_</a>
+<div id="longrun" style="display:none;">
+<p>  <div style="font-size:0.85em; text-align: justify;"> We investigate high-frequency volatility models for analyzing intradaily tick by tick stock price changes using Bayesian estimation procedures. Our key interest is the extraction of intradaily volatility patterns from high-frequency integer price changes. We account for the discrete nature of the data via two different approaches: ordered probit models and discrete distributions. We allow for stochastic volatility by modeling the variance as a stochastic function of time, with intraday periodic patterns. We consider distributions with heavy tails to address occurrences of jumps in tick by tick discrete prices changes. In particular, we introduce a dynamic version of the negative binomial difference model with stochastic volatility. For each model we develop a Markov chain Monte Carlo estimation method that takes advantage of auxiliary mixture representations to facilitate the numerical implementation. This new modeling framework is illustrated by means of tick by tick data for two stocks from the NYSE and for different periods. Different models are compared with each other based on predictive likelihoods. We find evidence in favour of our preferred dynamic negative binomial difference model. </div> </p>
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
+Code: <a class="github-button" href="https://github.com/aborowska/DNB" data-size="large" aria-label="Follow @aborowska/DNB on GitHub">Follow @aborowska/DNB</a>

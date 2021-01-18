@@ -1,7 +1,7 @@
 ---
 layout: page
-title: classes
-permalink: /classes/
+title: teaching
+permalink: /teaching/
 description: Teaching related information.
 ---
 

@@ -1,25 +1,21 @@
 <div class="news">
-  <h2>my history</h2>
+  <h2>things i've done</h2>
   {% if site.news  %}
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-      {% assign news = site.news | reverse %}
-      {% for item in news limit: site.news_limit %}
-        <tr>
-          {% if item.image %}
-          <th scope="row"><img src="{{ item.image}}" alt=""></th>
+    <table>
+    {% assign news = site.news | reverse %}
+    {% for item in news limit: site.news_limit %}
+      <tr>
+        <td class="date"><img src="{{post.image}}" alt=""></td>
+        <td class="announcement">
+          {% if item.inline %}
+            {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+          {% else %}
+            <a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
           {% endif %}
-          <td>
-            {% if item.inline %}
-              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-            {% else %}
-              <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            {% endif %}
-          </td>
-        </tr>
-      {% endfor %}
-      </table>
-    </div>
+        </td>
+      </tr>
+    {% endfor %}
+    </table>
   {% else %}
     <p>No news so far...</p>
   {% endif %}

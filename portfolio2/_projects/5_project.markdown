@@ -1,77 +1,29 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: /assets/img/1.jpg
-importance: 3
+title: Model and Strategy Combinations
+description: Published in J Econom
+img: /assets/img/model_weights.png
 ---
+{% include _links_library.md %}
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<script type="text/javascript">
+ function showhide(id) {
+    var e = document.getElementById(id);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+ }
+</script> 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+With [Nalan Baştürk][NalanBasturk], [Stefano Grassi][StefanoGrassi], [Lennart Hoogerheide][LennartHoogerheide] and [Herman K. van Dijk][HermanVanDijk].
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
+> A novel extended time-varying density combination scheme for dynamic asset-allocation based on  mixing of alternative volatility models and alternative portfolio strategies. For computations: a new dynamic filter based on mixtures of Student's _t_ distributions (M-Filter).
+
+
+<i class="fa fa-download fa-ld" aria-hidden="true"></i> PDF: <a class="page-link" href="{{ '/research/Basturk, Borowska, Grassi, Hoogerheide, van Dijk - Forecast Density Combinations of Dynamic Models and Data Driven Portfolio Strategies.pdf' | prepend: site.baseurl | prepend: site.url }}">Forecast Density Combinations of Dynamic Models and Data Driven Portfolio Strategies</a> 
+
+
+<i class="fa fa-sticky-note" aria-hidden="true"></i> <a href="javascript:showhide('baysm')">_Abstract_</a>
+<div id="baysm" style="display:none;">
+<p>  <div style="font-size:0.85em; text-align: justify;"> A dynamic asset-allocation model is specified in probabilistic terms as a combination of return distributions resulting from multiple pairs of dynamic models and portfolio strategies based on momentum patterns in US industry returns. The nonlinear state space representation of the model allows efficient and robust simulation-based Bayesian inference using a novel non-linear filter. Combination weights can be cross-correlated and correlated over time using feedback mechanisms. Diagnostic analysis gives insight into model and strategy misspecification. Empirical results show that a smaller flexible model-strategy combination performs better in terms of expected return and risk than a larger basic model-strategy combination. Dynamic patterns in combination weights and diagnostic learning provide useful signals for improved modelling and policy, in particular, from a risk-management perspective.
+</div> </p>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
