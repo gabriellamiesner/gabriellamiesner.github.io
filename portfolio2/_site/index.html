@@ -38,10 +38,6 @@
 
 <!-- Theming-->
 
-  <script src="/al-folio/assets/js/theme.js"></script>
-  <!-- Load DarkMode JS -->
-<script src="/al-folio/assets/js/dark_mode.js"></script>
-
 
 
 
@@ -62,7 +58,7 @@
 
   </head>
 
-  <body class="fixed-top-nav ">
+  <body class="fixed-top-nav sticky-bottom-footer">
 
     <!-- Header -->
 
@@ -142,13 +138,6 @@
           
           
           
-            <div class="toggle-container">
-              <a id="light-toggle">
-                  <i class="fas fa-moon"></i>
-                  <i class="fas fa-sun"></i>
-              </a>
-            </div>
-          
         </ul>
       </div>
     </div>
@@ -166,7 +155,7 @@
     <h1 class="post-title">
      <span class="font-weight-bold">Gabriella</span>   Miesner
     </h1>
-     <p class="desc"><a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.</p>
+     <p class="desc">a developer at the intersection of tech and social change</p>
   </header>
 
   <article>
@@ -177,54 +166,72 @@
       
       
         <div class="address">
-          <p>555 your office number</p> <p>123 your address street</p> <p>Your City, State 12345</p>
-
+          
         </div>
       
     </div>
     
 
     <div class="clearfix">
-      <p>Write your biography here. Tell the world about yourself. Link to your favorite <a href="http://reddit.com" target="\_blank">subreddit</a>. You can put a picture in, too. The code is already in, just name your picture <code class="language-plaintext highlighter-rouge">prof_pic.jpg</code> and put it in the <code class="language-plaintext highlighter-rouge">img/</code> folder.</p>
-
-<p>Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing <code class="language-plaintext highlighter-rouge">profile</code> property of the YAML header of your <code class="language-plaintext highlighter-rouge">_pages/about.md</code>. Edit <code class="language-plaintext highlighter-rouge">_bibliography/papers.bib</code> and Jekyll will render your <a href="/al-folio/publications/">publications page</a> automatically.</p>
-
-<p>Link to your social media connections, too. This theme is set up to use <a href="http://fortawesome.github.io/Font-Awesome/" target="\_blank">Font Awesome icons</a> and <a href="https://jpswalsh.github.io/academicons/" target="\_blank">Academicons</a>, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.</p>
+      <p>i am currently an undergraduate student at <a href="https://mst.edu">missouri university of science and technology</a>, studying information science and technology. i currently serve as the lab manager for the LITE (lab for information technology evaluation) lab, where i not only assist graduate students with their research, but also research tech ethics, specifically focusing on machine learning and artificial intelligence.</p>
 
     </div>
 
     
       <div class="news">
-  <h2>news</h2>
+  <h2>my history</h2>
   
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
       
       
         <tr>
-          <th scope="row">Jan 15, 2016</th>
+          
           <td>
             
-              A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">
+              i was a 2019 mobile scholar, where i learned swift and created an mvp of an app called clueless that educates people on climate change. i was also a 2020 web development scholar, where i learned HTML, CSS, and JavaScript, and created a <a href="https://kwk-final-project--gmiesner.repl.co/">website</a> on environmental racism in saint louis.
 
             
           </td>
         </tr>
       
         <tr>
-          <th scope="row">Nov 7, 2015</th>
+          
           <td>
             
-              <a class="news-title" href="/al-folio/news/announcement_2/">A long announcement with details</a>
+              i was a 2020 <a href="https://buildyourfuture.withgoogle.com/programs/computer-science-summer-institute/">computer science summer institute student</a>, where i learned the <a href="https://p5js.org/">p5.js</a> library, completed daily assignments, went through career development workshops, and created a <a href="https://agar-js.glitch.me/">final project</a> reminiscent of agar.io.
+
             
           </td>
         </tr>
       
         <tr>
-          <th scope="row">Oct 22, 2015</th>
+          
           <td>
             
-              A simple inline announcement.
+              i am a brand ambassador for <a href="https://techtogether.io">techtogether</a>, where used social media to boost 4 hackathons’ attendance by 15%. i also serve as a marketing organizer for the seattle chapter, where i have boosted event sign-ups by 20% through my social media posts.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          
+          <td>
+            
+              i graduated from the july 2020 java and javascript <a href="https://launchcode.org/codergirl">codergirl</a> cohort, where i loved it so much i decided to return as a teaching assistant for lc101 through the tech leadership fellowship.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          
+          <th scope="row"><img src="../assets/img/pickhacks-logo.png" alt=""></th>
+          
+          <td>
+            
+              i currently serve on the marketing and design board for <a href="https://pickhacks.io">pickhacks</a>, missouri s &amp; t’s largest annual hackathon. i create prototypes, logos, and assist with social media marketing.
 
             
           </td>
@@ -240,8 +247,7 @@
     
       <div class="publications">
   <h2>selected publications</h2>
-  <ol class="bibliography"><li>
-<div class="row">
+  <ol class="bibliography"><li><div class="row">
   <div class="col-sm-2 abbr">
   
     
@@ -374,8 +380,7 @@
   
 </span>
 
-      <div class="contact-note">You can even add a little note about which of these is the best way to reach you.
-</div>
+      <div class="contact-note"></div>
     </div>
     
   </article>
@@ -387,11 +392,10 @@
     <!-- Footer -->
 
     
-<footer class="fixed-bottom">
-  <div class="container mt-0">
-    © Copyright 2021 Gabriella  Miesner.
-    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-
+<footer class="sticky-bottom mt-5">
+  <div class="container">
+    &copy; Copyright 2021 Gabriella  Miesner.
+    
     
     
   </div>

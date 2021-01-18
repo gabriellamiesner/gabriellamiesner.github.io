@@ -1,7 +1,6 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+i graduated from the july 2020 java and javascript [codergirl](https://launchcode.org/codergirl) cohort, where i loved it so much i decided to return as a teaching assistant for lc101 through the tech leadership fellowship.

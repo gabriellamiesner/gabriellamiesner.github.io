@@ -1,12 +1,14 @@
 <div class="news">
-  <h2>news</h2>
+  <h2>my history</h2>
   {% if site.news  %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
       {% assign news = site.news | reverse %}
       {% for item in news limit: site.news_limit %}
         <tr>
-          <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+          {% if item.image %}
+          <th scope="row"><img src="{{ item.image}}" alt=""></th>
+          {% endif %}
           <td>
             {% if item.inline %}
               {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
