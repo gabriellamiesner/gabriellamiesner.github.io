@@ -1,6 +1,6 @@
 ---
 layout: post
 inline: true
-image: ../assets/img/pickhacks-logo.png
 ---
-i currently serve on the marketing and design board for [pickhacks](https://pickhacks.io), missouri s & t’s largest annual hackathon. i create prototypes, logos, and assist with social media marketing.
+
+i was a 2019 mobile scholar, where i learned swift and created an mvp of an app called clueless that educates people on climate change. i was also a 2020 web development scholar, where i learned HTML, CSS, and JavaScript, and created a [website](https://kwk-final-project--gmiesner.repl.co/) on environmental racism in saint louis.

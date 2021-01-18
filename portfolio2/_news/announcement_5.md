@@ -1,6 +1,6 @@
 ---
 layout: post
 inline: true
+image: ../assets/img/pickhacks-logo.png
 ---
-
-i was a 2020 [computer science summer institute student](https://buildyourfuture.withgoogle.com/programs/computer-science-summer-institute/), where i learned the [p5.js](https://p5js.org/) library, completed daily assignments, went through career development workshops, and created a [final project](https://agar-js.glitch.me/) reminiscent of agar.io.
+i currently serve on the marketing and design board for [pickhacks](https://pickhacks.io), missouri s & t’s largest annual hackathon. i create prototypes, logos, and assist with social media marketing.

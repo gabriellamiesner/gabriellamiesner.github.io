@@ -3,4 +3,4 @@ layout: post
 inline: true
 ---
 
-i was a 2019 mobile scholar, where i learned swift and created an mvp of an app called clueless that educates people on climate change. i was also a 2020 web development scholar, where i learned HTML, CSS, and JavaScript, and created a [website](https://kwk-final-project--gmiesner.repl.co/) on environmental racism in saint louis.
+i graduated from the july 2020 java and javascript [codergirl](https://launchcode.org/codergirl) cohort, where i loved it so much i decided to return as a teaching assistant for lc101 through the tech leadership fellowship.

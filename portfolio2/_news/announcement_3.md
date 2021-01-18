@@ -3,4 +3,4 @@ layout: post
 inline: true
 ---
 
-i graduated from the july 2020 java and javascript [codergirl](https://launchcode.org/codergirl) cohort, where i loved it so much i decided to return as a teaching assistant for lc101 through the tech leadership fellowship.
+i was a 2020 [computer science summer institute student](https://buildyourfuture.withgoogle.com/programs/computer-science-summer-institute/), where i learned the [p5.js](https://p5js.org/) library, completed daily assignments, went through career development workshops, and created a [final project](https://agar-js.glitch.me/) reminiscent of agar.io.
