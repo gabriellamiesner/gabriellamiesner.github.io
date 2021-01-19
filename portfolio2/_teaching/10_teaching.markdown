@@ -3,6 +3,7 @@ layout: page
 title: econ 1200
 description: spring 2021
 img: /assets/img/green.png
+class : introduction to macroeconomics
 ---
 <h3><strong>chapter notes</strong></h3>
 [chapter 1](#1)
