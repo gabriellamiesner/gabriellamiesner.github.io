@@ -6,8 +6,8 @@
     <span class="site-title">
         {% assign name = site.name | split: ' ' %}
         <!-- <strong>{{ name | first }}</strong> {{ name | last }} -->
-        <a href="{{ site.baseurl | prepend: site.url }}/">{{ name | first }} {{ name | last }}</a>
-		
+        <a href="{{ site.baseurl | prepend: site.url }}/"><strong>{{ name | first }}</strong> {{ name | last }}</a>
+
     </span>
     {% endif %}
 
@@ -22,14 +22,14 @@
           {% if page.title and page.url != "/" and page.url != "/contact/" %}
             <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
           {% endif %}
-        {% endfor %} 
+        {% endfor %}
 
-		<!-- Blog 
+		<!-- Blog
         <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a>-->
-		
+
 		<!-- Contact -->
         <a class="page-link" href="{{ '/contact/' | prepend: site.baseurl | prepend: site.url }}"><i class="fa fa-envelope-o"></i></a>
-		
+
 
         <!-- CV link -->
         <!-- <a class="page-link" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a> -->

@@ -1,63 +1,46 @@
 ---
 layout: cv
-permalink: /cv/
-title: vitae
-description: My CV and education
+permalink: /resume/
+title: resume
+description: things i've done, learned, and created
 
 profile:
   align: right
-  image: newpic.jpg
+  image: headshot.jpg
 news: false
 social: false
 ---
 {% include _links_library.md %}
- 
-### full CV
 
-You can find my full CV <a class="page-link" href="{{ '/cv/aborowska_cv.pdf' | prepend: site.baseurl | prepend: site.url }}">here</a>  
+### full resume
+
+You can find my full resume <a class="page-link" href="{{ '/cv/JAN-2021-RESUME.pdf' | prepend: site.baseurl | prepend: site.url }}">here</a>  
 
 ------
 
-### short CV
+### short resume
 
-#### Employment:
+#### Technical Experience:
 
-* **Current position:** Research Associate in Statistics, [University of Glasgow][UoG] and the [Closed-Loop Data Science][CLDS] projects (from June 2020)
-* Research Assistant in Statistics, [University of Glasgow][UoG] and [SofTMech][SofTMech] (May 2018 &ndash;  May 2020)
-* Ph.D. Candidate in Econometrics, [Vrije Universiteit Amsterdam][VU] and [Tinbergen Institute][TI] (Sep. 2015 &ndash;  Aug. 2018)
-* Teaching Assistant for postgraduate courses, [Erasmus University Rotterdam][Erasmus] (Sep. 2014 &ndash; Dec. 2014)
+* **Current position:** Lab Manager, [Missouri University of Science and Technology](https://mst.edu) LITE Lab (January 2021 &ndash; present)
+* **Current position:** Teaching Assistant, [LaunchCode](https://launchcode.org)  (December 2020 &ndash; present)
+* **Current position:** Brand Ambassador, [TechTogether](https://techtogether.io)  (October 2020 &ndash; present)
+* Marketing Organizer - Seattle Chapter, [TechTogether](https://techtogether.io)  (August 2020 &ndash; January 2021)
+* Student, [Google's Computer Science Summer Institute](https://buildyourfuture.withgoogle.com/programs/computer-science-summer-institute/) (July 2020)
+* Web Development Scholar, [Kode with Klossy](https://kodewithklossy.com) (June 2020)
+* Mobile Development Scholar, [Kode with Klossy](https://kodewithklossy.com) (June 2019)
 
 #### Education:
 
 <ul style="list-style: none;">
-<li markdown="1"> 
-<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-**Ph.D. in Econometrics**,  [Vrije Universiteit Amsterdam][VU] and [Tinbergen Institute][TI], 2019.
-Supervisors: [Siem Jan Koopman][SiemJanKoopman] and [Lennart Hoogerheide][LennartHoogerheide]
-</li>  
 <li markdown="1">
 <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-**M.Phil. in Econometrics**, [Tinbergen Institute][TI], 2015. 
-</li> 
-<li markdown="1"> <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-**B.Sc. in Mathematics** (minor: Probability Theory), [Faculty of Mathematics, Informatics, and Mechanics][MIMUW], [University of Warsaw][UW], 2013.
-</li> 
-<li markdown="1"> 
-<i class="fa fa-graduation-cap" aria-hidden="true"></i> 
-**M.Sc. in Economics**, [Warsaw School of Economics][SGH], 2012.
-</li> 
-<li markdown="1"> 
-<i class="fa fa-graduation-cap" aria-hidden="true"></i> 
-**B.Sc. in Economics**, [Warsaw School of Economics][SGH], 2009.
-</li> 
+**B.S. in Information Science and Technology**,  [Missouri University of Science and Technology](https://mst.edu) (August 2020 - May 2023)
+<br>
+Supervisors:  <a href = "https://people.mst.edu/faculty/nahf/" target = "_blank"> Dr. Fiona Nah </a>
+</li>  
 </ul>  
 
-
-#### Visits and exchanges:
-* [University of Edinburgh][UoE], [School of Mathematics][SchoolMath], host supervisor: [Ruth King][RuthKing], Apr. &ndash; Jun. 2017.  
-* [University of Göttingen](http://www.uni-goettingen.de/en/1.html), Faculty of Economics and Business Administration, M.Sc. program, Erasmus exchange, Sep. 2010 &ndash;  Feb. 2011
-
-***
-
-#### Pronunciation
-In case you were interested, here is how my <a href="https://en.wiktionary.org/wiki/Agnieszka" title="Agnieszka">name</a> is pronounced: a'g&#626;&#603;&#642;ka or Ag-niesh-ka.  
+#### Awards:
+* Best Survival Hack, [TechTogether New York](https://techtogether.io) (December 2020)
+* Aspirations in Computing Regional Affiliate Winner, [National Center for Women & Information Technology](https://www.ncwit.org/) (2020)
