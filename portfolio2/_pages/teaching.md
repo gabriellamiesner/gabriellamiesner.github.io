@@ -1,10 +1,12 @@
 ---
 layout: page
-title: teaching
-permalink: /teaching/
-description: Teaching related information.
+title: classes
+permalink: /classes/
+description: notes, projects, and things from my undergraduate classes.
 ---
-
+#### Spring 2021
+#### Fall 2020
+#### Summer 2020
 {% for project in site.teaching %}
 
 {% if project.redirect %}
