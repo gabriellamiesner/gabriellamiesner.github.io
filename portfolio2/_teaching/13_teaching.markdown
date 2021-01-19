@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Advanced Econometrics II
-description: M.Phil. course, 2014/2015
-img: /assets/img/4.jpg
+title: ist 1750
+description: spring 2021
+img: /assets/img/purple.png
 ---
 {% include _links_library.md %}
 
@@ -10,10 +10,10 @@ img: /assets/img/4.jpg
 * Block 3, 2014/2015
 * Lecturer: [Dr Kees Jan van Garderen][KeesJanVanGarderen]
 * TA Notes:
-	1. <a class="page-link" href="{{ '/teaching/ae2/AE2,TA Session 1.pdf' | prepend: site.baseurl | prepend: site.url }}">Session 1</a>	
-	2. <a class="page-link" href="{{ '/teaching/ae2/AE2,TA Session 2.pdf' | prepend: site.baseurl | prepend: site.url }}">Session 2</a>	
-	3. <a class="page-link" href="{{ '/teaching/ae2/AE2,TA Session 3.pdf' | prepend: site.baseurl | prepend: site.url }}">Session 3</a>	
-	4. <a class="page-link" href="{{ '/teaching/ae2/AE2,TA Session 4.pdf' | prepend: site.baseurl | prepend: site.url }}">Session 4</a>	
+	1. <a class="page-link" href="{{ '/teaching/ae2/AE2,TA Session 1.pdf' | prepend: site.baseurl | prepend: site.url }}">Session 1</a>
+	2. <a class="page-link" href="{{ '/teaching/ae2/AE2,TA Session 2.pdf' | prepend: site.baseurl | prepend: site.url }}">Session 2</a>
+	3. <a class="page-link" href="{{ '/teaching/ae2/AE2,TA Session 3.pdf' | prepend: site.baseurl | prepend: site.url }}">Session 3</a>
+	4. <a class="page-link" href="{{ '/teaching/ae2/AE2,TA Session 4.pdf' | prepend: site.baseurl | prepend: site.url }}">Session 4</a>
 	5. <a class="page-link" href="{{ '/teaching/ae2/AE2,TA Session 5.pdf' | prepend: site.baseurl | prepend: site.url }}">Session 5</a>		
 	6. <a class="page-link" href="{{ '/teaching/ae2/AE2,TA Session 6.pdf' | prepend: site.baseurl | prepend: site.url }}">Session 6</a>		
 * Assignments:
