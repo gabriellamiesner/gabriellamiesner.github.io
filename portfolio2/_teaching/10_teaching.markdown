@@ -5,7 +5,9 @@ description: spring 2021
 img: /assets/img/green.png
 class : introduction to macroeconomics
 ---
-<h3><strong>chapter notes</strong></h3>
+### class description
+a study of alternative strategies for managing the U.S. economy within a global environment, to attain the goals of full employment, stability and growth.
+### chapter notes
 [chapter 1](#1)
 <br>
 [chapter 2](#2)
