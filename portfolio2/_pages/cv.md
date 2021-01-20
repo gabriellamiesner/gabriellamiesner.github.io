@@ -39,6 +39,10 @@ You can find my full resume <a class="page-link" href="{{ '/cv/JAN-2021-RESUME.p
 <br>
 Supervisors:  <a href = "https://people.mst.edu/faculty/nahf/" target = "_blank"> Dr. Fiona Nah </a>
 </li>  
+<li markdown = "1">
+<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+**Technical Certification in JavaScript and Java**, [LaunchCode](https://launchcode.org) (July 2019 - July 2020)
+</li>
 </ul>  
 
 #### Awards:
