@@ -126,7 +126,7 @@ h6, .h6 { font-size: 0.75rem; }
 /* Basscss Color Base */
 body { color: #333; background-color: white; }
 
-a { color: #5C8AD0; text-decoration: none; }
+a { color: #5C8AD0; text-decoration: none; font-weight: 600;}
 
 a:hover { text-decoration: underline; }
 
