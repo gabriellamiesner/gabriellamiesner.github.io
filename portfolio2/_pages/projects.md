@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Some details about my projects
+description: cool things i've made 
 ---
 
 {% assign projects = site.projects | reverse %}

@@ -25,6 +25,7 @@ You can find my full resume <a class="page-link" href="{{ '/cv/JAN-2021-RESUME.p
 * **Current position:** Lab Manager, [Missouri University of Science and Technology](https://mst.edu) LITE Lab (January 2021 &ndash; present)
 * **Current position:** Teaching Assistant, [LaunchCode](https://launchcode.org)  (December 2020 &ndash; present)
 * **Current position:** Brand Ambassador, [TechTogether](https://techtogether.io)  (October 2020 &ndash; present)
+* **Current position:** Marketing Organizer, [PickHacks](https://pickhacks.io)  (December 2020 &ndash; present)
 * Marketing Organizer - Seattle Chapter, [TechTogether](https://techtogether.io)  (August 2020 &ndash; January 2021)
 * Student, [Google's Computer Science Summer Institute](https://buildyourfuture.withgoogle.com/programs/computer-science-summer-institute/) (July 2020)
 * Web Development Scholar, [Kode with Klossy](https://kodewithklossy.com) (June 2020)
