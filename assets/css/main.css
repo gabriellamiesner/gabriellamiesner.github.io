@@ -126,7 +126,7 @@ h6, .h6 { font-size: 0.75rem; }
 /* Basscss Color Base */
 body { color: #333; background-color: white; }
 
-a { color: #B509AC; text-decoration: none; }
+a { color: #5C8AD0; text-decoration: none; }
 
 a:hover { text-decoration: underline; }
 
@@ -321,7 +321,7 @@ body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: 
 .site-title { font-size: 20px; line-height: 56px; letter-spacing: -1px; margin-bottom: 0; }
 .site-title a { font-size: 20 px; font-weight: bold; }
 
-.site-nav { float: right; line-height: 56px; } 
+.site-nav { float: right; line-height: 56px; }
 .site-nav .page-link { line-height: 1.5; }
 .site-nav .page-link:not(:first-child) { margin-left: 10px; }
 
@@ -492,7 +492,7 @@ article a:hover, .news a:hover { text-decoration: underline; }
   .site-header .site-title { font-size: 1.25rem; float: left; }
   .site-header .site-title a { font-size: 1.55rem; font-weight: bold; float: left; }
   .site-header .site-nav { float: right; }
-  blockquote { margin-left: 1rem; padding: 0.5rem; } 
+  blockquote { margin-left: 1rem; padding: 0.5rem; }
   .social-icons-left { text-align: left; }
   .social-icons-right { text-align: right; } }
 @media screen and (min-width: 48em) { html { font-size: 18px; } }
