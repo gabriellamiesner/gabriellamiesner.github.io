@@ -1,0 +1,52 @@
+body{
+  background: #9ED2E8; 
+  font-family: "Press Start 2P";
+}
+
+nav .rainbow{
+  margin-left: 33%; 
+}
+
+nav .avatar{ 
+  margin-left: 45%; 
+  margin-top: -2.25%; }
+
+nav .cloud1{
+  margin-left: 25%;
+}
+nav .cloud2{
+  margin-left: 45%;
+}
+
+nav h1{
+  text-align:center;
+  font-size: 2rem; }
+
+nav a{
+  text-decoration: none;
+  color: black; 
+  font-size: 1.5rem;
+  margin-left: 3rem;
+}
+
+nav .navbar{
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+ .rainbow{
+  margin-left: 2%; 
+}
+
+nav .avatar{ 
+  margin-left: 5%; 
+  margin-top: -2.25%; }
+
+nav .cloud1{
+  margin-left: 2.5%;
+}
+nav .cloud2{
+  margin-left: 5%;
+}
+
+}
