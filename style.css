@@ -33,20 +33,20 @@ nav .navbar{
   text-align: center;
 }
 
-@media only screen and (max-width: 600px){
- .rainbow{
-  margin-left: 2%; 
+@media only screen and (max-width: 500px){
+ nav .rainbow{
+  margin-left: 2rem; 
 }
 
 nav .avatar{ 
-  margin-left: 5%; 
-  margin-top: -2.25%; }
+  margin-left: 5rem; 
+  margin-top: -2.25rem; }
 
 nav .cloud1{
-  margin-left: 2.5%;
+  margin-left: 2.5rem;
 }
 nav .cloud2{
-  margin-left: 5%;
+  margin-left: 5rem;
 }
 
 }
