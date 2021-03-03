@@ -60,7 +60,7 @@ nav .cloud2{
 }
 
 #by_sem{
-  display: inline; 
+  display: block; 
 }
 
 #kwk{
@@ -97,6 +97,7 @@ nav .cloud2{
 
 .filterDiv img{
   height: 40%;
+  margin-bottom: 2rem; 
 }
 
 .show {
@@ -113,15 +114,38 @@ nav .cloud2{
   border: none;
   outline: none;
   padding: 12px 16px;
-  background-color: #f1f1f1;
+  background-color: #E7F4F9;
   cursor: pointer;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .btn:hover {
-  background-color: #ddd;
+  background-color: #ECE7F9;
 }
 
-.btn.active {
-  background-color: #666;
-  color: white;
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+@media only screen and (min-width: 1000px){
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-family: 'Noto Sans KR', sans-serif;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 }
