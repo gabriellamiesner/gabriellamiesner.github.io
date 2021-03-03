@@ -5,6 +5,7 @@
  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500&display=swap" rel="stylesheet"> 
 <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
+<script src="script.js"></script>
 </head>
 <nav>
   <a href = "index.html"><img src="img/me.png" alt="" height = "70rem" style = "margin-left: 5%;margin-top: 0rem;"></a>
@@ -15,18 +16,29 @@
   <a href = "index.html"><img src="img/rainbow.png" alt="" style = "margin-top: -.15%; margin-left: 4.5%;" height = "25rem"></a>
 </nav>
 <body>
-  <h1 style = "text-align:center;background: #ECE7F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> web development</h1>
-  <nav style = "text-align:center;">
-    <a href = "link_to_site"><img src="img/qwr.png" alt="" width = "500rem" ></a>
-   <a href = "link_to_site"><img src="img/renew.png" alt="" width = "500rem" ></a>
-</nav>
   <br>
-  <h1 style = "text-align:center;background: #ECE7F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> technical workshops</h1>
+  <h2 style = "margin-left: 2rem;">sort by: </h2>
+  
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> All</button>
+  <button class="btn" onclick="filterSelection('data_sci')"> Data Science</button>
+  <button class="btn" onclick="filterSelection('python')"> Python</button>
+  <button class="btn" onclick="filterSelection('web_dev')"> Web Development</button>
+</div>
+
+<div class="container">
+  <div class="filterDiv data_sci"><img src = "img/neurosight.png"></div>
+  <div class="filterDiv web_dev "><img src = "img/qwr.png"><</div>
+  <div class="filterDiv web_dev"><img src = "img/renew.png"><</div>
+  <div class="filterDiv web_dev"><img src = "img/climate_clock.png"></div>
+</div>
+
+  
   <br>
+  
   <br>
-   <div style = "background: #E7F4F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; ">
-    <h2>intro to web scraping with puppeteer </h2> 
-  </div>
-  <br>
+  
+</body>
 </body>
 </html>

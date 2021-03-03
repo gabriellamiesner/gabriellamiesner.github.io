@@ -60,7 +60,7 @@ nav .cloud2{
 }
 
 #by_sem{
-  display: block; 
+  display: inline; 
 }
 
 #kwk{
@@ -78,4 +78,50 @@ nav .cloud2{
 }
 #pickhacks{
   display:none; 
+}
+
+#web_dev{
+  display: inline;
+}
+#python{
+  display: inline;
+}
+#data_sci{
+  display: inline;
+}
+
+
+.filterDiv {
+  display: none;
+}
+
+.filterDiv img{
+  height: 40%;
+}
+
+.show {
+  display: inline;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
 }
