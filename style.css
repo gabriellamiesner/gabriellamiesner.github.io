@@ -58,3 +58,7 @@ nav .cloud2{
 #by_subject{
   display: none; 
 }
+
+#by_sem{
+  display: block; 
+}
