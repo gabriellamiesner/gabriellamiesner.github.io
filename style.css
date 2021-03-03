@@ -50,3 +50,11 @@ nav .cloud2{
 }
 
 }
+
+#by_semester{
+  display: none; 
+}
+
+#by_subject{
+  display: none; 
+}

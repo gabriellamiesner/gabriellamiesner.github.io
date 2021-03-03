@@ -4,6 +4,7 @@
  <link rel="stylesheet" href="style.css">
  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500&display=swap" rel="stylesheet"> 
+<script src="script.js"></script>
 
 </head>
 <nav>
@@ -13,54 +14,95 @@
   <a href="contact.html" style = "font-size: 1.25rem">contact</a>
   <br>
   <a href = "index.html"><img src="img/rainbow.png" alt="" style = "margin-top: -.15%; margin-left: 4.5%;" height = "25rem"></a>
+  
 </nav>
+
 <body>
   <h1 style = "text-align:center">classes i've taken</h1>
-  <p style = "font-family: 'Noto Sans KR', sans-serif;font-weight:300;font-size: 1.5rem; margin-left: 5rem; margin-right: 5rem; "> clshssh</p>
   <br>
-    <h1 style = "text-align:center;background: #ECE7F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> junior year fall</h1>
+  <div onclick="showDiv();">
+  <h1 style = "text-align:center;background: #ECE7F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> by semester</h1>
+  </div>
+  <div id = "by_semester"> 
+    <h1 style = "text-align:center;background: #E7F4F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> fall 2018</h1>
    <ul style = "font-family: 'Noto Sans KR', sans-serif;font-weight:300;font-size: 1.5rem; margin-left: 5rem; margin-right: 5rem; ">
     <li>History Of US To 1865</li>
     <li>First Year Writing</li>
   </ul>
-    <h1 style = "text-align:center;background: #ECE7F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> junior year spring</h1>
+    <h1 style = "text-align:center;background:#E7F4F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> spring 2019</h1>
   <ul style = "font-family: 'Noto Sans KR', sans-serif;font-weight:300;font-size: 1.5rem; margin-left: 5rem; margin-right: 5rem; ">
     <li>Communicating in Spanish 1</li>
     <li>History Of US Since 1865</li>
     <li>Topics in Literature</li>
   </ul>
-    <h1 style = "text-align:center;background: #ECE7F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> senior year fall</h1>
+    <h1 style = "text-align:center;background: #E7F4F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> fall 2019</h1>
    <ul style = "font-family: 'Noto Sans KR', sans-serif;font-weight:300;font-size: 1.5rem; margin-left: 5rem; margin-right: 5rem; ">
     <li>Introduction to American Government</li>
     <li>Reading Literature</li>
   </ul>
-    <h1 style = "text-align:center;background: #ECE7F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> senior year spring</h1>
+    <h1 style = "text-align:center;background: #E7F4F9;margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> spring 2020</h1>
   <ul style = "font-family: 'Noto Sans KR', sans-serif;font-weight:300;font-size: 1.5rem; margin-left: 5rem; margin-right: 5rem; ">
     <li>Comparative Government</li>
     <li>Introduction to Poetry</li>
   </ul>
-    <h1 style = "text-align:center;background: #ECE7F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> senior year summer</h1>
+    <h1 style = "text-align:center;background: #E7F4F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> summer 2020</h1>
   <ul style = "font-family: 'Noto Sans KR', sans-serif;font-weight:300;font-size: 1.5rem; margin-left: 5rem; margin-right: 5rem; ">
     <li>General Psychology </li>
     <li>Introduction to Women's and Gender Studies</li>
     <li>Public Speaking</li>
   </ul>
-    <h1 style = "text-align:center;background: #ECE7F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> first year fall</h1>
+    <h1 style = "text-align:center;background: #E7F4F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> fall 2020</h1>
    <ul style = "font-family: 'Noto Sans KR', sans-serif;font-weight:300;font-size: 1.5rem; margin-left: 5rem; margin-right: 5rem; ">
     <li>College Algebra </li>
     <li>Freshman Engineering</li>
     <li>General Principles and Concepts of Biology with Laboratory</li>
     <li>Biotechnology in Film </li>
   </ul>
-    <h1 style = "text-align:center;background: #ECE7F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> first year spring</h1>
+    <h1 style = "text-align:center;background: #E7F4F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> spring 2021</h1>
   <ul style = "font-family: 'Noto Sans KR', sans-serif;font-weight:300;font-size: 1.5rem; margin-left: 5rem; margin-right: 5rem; ">
     <li>Business Calculus </li>
-    <li>Algorithms and Programming with Java </li>
-    <li>Human Computer Interaction/User Experience</li>
+    <a href = "https://github.com/gmiesner/ist_1561" target = "_blank" style = "text-decoration: none; color: black; font-weight: 500"><li>Algorithms and Programming with Java </li></a>
+    <li>Human Computer Interaction/User Experience </li>
     <li>Intro to Management Information Systems </li>
-    <li>Web and Digital Media Development</li>
+    <a href = "https://github.com/gmiesner/ist_4654" target = "_blank" style = "text-decoration: none; color: black; font-weight: 500"><li>Web and Digital Media Development </li></a>
   </ul>
- 
+  </div>
   
+  <div onclick="showDiv1();">
+  <h1 style = "text-align:center;background: #ECE7F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> by subject area</h1>
+  </div>
+  <div id = "by_subject"> 
+    <h1 style = "text-align:center;background: #E7F4F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> information technology </h1>
+   <ul style = "font-family: 'Noto Sans KR', sans-serif;font-weight:300;font-size: 1.5rem; margin-left: 5rem; margin-right: 5rem; ">
+    <a href = "https://github.com/gmiesner/ist_1561" target = "_blank" style = "text-decoration: none; color: black; font-weight: 500"><li>Algorithms and Programming with Java </li></a>
+    <li>Human Computer Interaction/User Experience </li>
+    <li>Intro to Management Information Systems </li>
+    <a href = "https://github.com/gmiesner/ist_4654" target = "_blank" style = "text-decoration: none; color: black; font-weight: 500"><li>Web and Digital Media Development </li></a>
+  </ul>
+    <h1 style = "text-align:center;background:#E7F4F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> humanities</h1>
+  <ul style = "font-family: 'Noto Sans KR', sans-serif;font-weight:300;font-size: 1.5rem; margin-left: 5rem; margin-right: 5rem; ">
+   <li>History Of US To 1865 </li>
+    <li>First Year Writing  </li>
+     <li>Communicating in Spanish 1 </li>
+    <li>History Of US Since 1865 </li>
+    <li>Topics in Literature </li>
+    <li>Introduction to American Government </li>
+    <li>Reading Literature </li>
+    <li>Comparative Government </li>
+    <li>Introduction to Poetry </li>
+    <li>Introduction to Women's and Gender Studies </li>
+    <li>Public Speaking </li>
+    <li>Biotechnology in Film </li>
+  </ul>
+    <h1 style = "text-align:center;background: #E7F4F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; "> non-it stem</h1>
+   <ul style = "font-family: 'Noto Sans KR', sans-serif;font-weight:300;font-size: 1.5rem; margin-left: 5rem; margin-right: 5rem; ">
+   <li>General Psychology </li>
+   <li>College Algebra </li>
+    <li>Freshman Engineering </li>
+    <li>General Principles and Concepts of Biology with Laboratory </li>
+    <li>Business Calculus </li>
+  </ul>
+    
+  </div>
 </body>
 </html>
