@@ -85,6 +85,57 @@ function showPickHacks() {
     }
 }
 
+function displayNeurosight(){
+  div = document.getElementById('neurosight');
+  if (div.style.display == "block"){
+      div.style.display = "none";
+    }else{
+    div.style.display = "block";
+    document.getElementById('qwr').style.display = "none";
+    document.getElementById('climate_clock').style.display = "none";
+    document.getElementById('renew').style.display = "none";
+
+    }
+}
+
+function displayCrystalQwr(){
+   div = document.getElementById('qwr');
+  if (div.style.display == "block"){
+      div.style.display = "none";
+    }else{
+    div.style.display = "block";
+    document.getElementById('neurosight').style.display = "none";
+    document.getElementById('climate_clock').style.display = "none";
+    document.getElementById('renew').style.display = "none";
+
+    }
+}
+
+function displayRenew(){
+   div = document.getElementById('renew');
+  if (div.style.display == "block"){
+      div.style.display = "none";
+    }else{
+    div.style.display = "block";
+    document.getElementById('neurosight').style.display = "none";
+    document.getElementById('climate_clock').style.display = "none";
+    document.getElementById('qwr').style.display = "none";
+
+    }
+}
+
+function displayClimateClock(){
+   div = document.getElementById('climate_clock');
+  if (div.style.display == "block"){
+      div.style.display = "none";
+    }else{
+    div.style.display = "block";
+    document.getElementById('neurosight').style.display = "none";
+    document.getElementById('qwr').style.display = "none";
+    document.getElementById('renew').style.display = "none";
+
+    }
+}
 
 function filterSelection(c) {
   var x, i;

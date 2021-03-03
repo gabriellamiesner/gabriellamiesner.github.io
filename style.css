@@ -90,14 +90,28 @@ nav .cloud2{
   display: inline;
 }
 
+#neurosight{
+  display: none; 
+}
 
+#qwr{
+  display: none; 
+}
+
+#renew{
+  display: none; 
+}
+
+#climate_clock{
+  display: none; 
+}
 .filterDiv {
   display: none;
 }
 
 .filterDiv img{
   height: 40%;
-  margin-bottom: 2rem; 
+  margin-bottom: 1rem; 
 }
 
 .show {
