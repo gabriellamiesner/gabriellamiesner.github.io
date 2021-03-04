@@ -50,34 +50,19 @@ nav .cloud2{
 
 }
 
-#by_semester{
+#sp2021{
   display: none; 
 }
 
-#by_subject{
+#f2020{
   display: none; 
 }
 
-#by_sem{
-  display: block; 
-}
-
-#kwk{
+#sum2020{
   display: none; 
 }
 
-#techtogether{
-  display: none; 
-}
-#google{
-  display: none; 
-}
-#launchcode{
-  display: none; 
-}
-#pickhacks{
-  display:none; 
-}
+
 
 #web_dev{
   display: inline;

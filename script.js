@@ -1,90 +1,34 @@
 function showDiv() {
-    div = document.getElementById('by_semester');
+    div = document.getElementById('sp2021');
     if (div.style.display == "block"){
       div.style.display = "none";
     }else{
     div.style.display = "block";
+    document.getElementById('sum2020').style.display = "none";
+    document.getElementById('f2020').style.display = "none"
     }
 }
 function showDiv1() {
-    div = document.getElementById('by_subject');
-    if (div.style.display == "block"){
-      div.style.display = "none";
-      document.getElementById('by_sem').style.display = "block";
-    }else{
-    div.style.display = "block";
-    document.getElementById('by_sem').style.display = "none";
-    }
-}
-
-function showKodeWithKlossy() {
-    div = document.getElementById('kwk');
+    div = document.getElementById('f2020');
     if (div.style.display == "block"){
       div.style.display = "none";
     }else{
     div.style.display = "block";
-    document.getElementById('pickhacks').style.display = "none";
-    document.getElementById('techtogether').style.display = "none";
-    document.getElementById('google').style.display = "none";
-    document.getElementById('launchcode').style.display = "none";
+      document.getElementById('sum2020').style.display = "none";
+    document.getElementById('sp2021').style.display = "none"
     }
 }
 
-
-function showTechTogether() {
-    div = document.getElementById('techtogether');
+function showDiv2() {
+    div = document.getElementById('sum2020');
     if (div.style.display == "block"){
       div.style.display = "none";
     }else{
     div.style.display = "block";
-  document.getElementById('kwk').style.display = "none";
-    document.getElementById('pickhacks').style.display = "none";
-    document.getElementById('google').style.display = "none";
-    document.getElementById('launchcode').style.display = "none";
-    
-    
+      document.getElementById('sp2021').style.display = "none";
+    document.getElementById('f2020').style.display = "none"
     }
 }
-
-function showLaunchCode() {
-    div = document.getElementById('launchcode');
-    if (div.style.display == "block"){
-      div.style.display = "none";
-    }else{
-    div.style.display = "block";
-   document.getElementById('kwk').style.display = "none";
-    document.getElementById('techtogether').style.display = "none";
-    document.getElementById('google').style.display = "none";
-    document.getElementById('pickhacks').style.display = "none";
-    }
-}
-
-function showGoogle() {
-    div = document.getElementById('google');
-    if (div.style.display == "block"){
-      div.style.display = "none";
-    }else{
-    div.style.display = "block";
-    document.getElementById('kwk').style.display = "none";
-    document.getElementById('techtogether').style.display = "none";
-    document.getElementById('pickhacks').style.display = "none";
-    document.getElementById('launchcode').style.display = "none";
-    }
-}
-
-function showPickHacks() {
-    div = document.getElementById('pickhacks');
-    if (div.style.display == "block"){
-      div.style.display = "none";
-    }else{
-    div.style.display = "block";
-    document.getElementById('kwk').style.display = "none";
-    document.getElementById('techtogether').style.display = "none";
-    document.getElementById('google').style.display = "none";
-    document.getElementById('launchcode').style.display = "none";
-    }
-}
-
 function displayNeurosight(){
   div = document.getElementById('neurosight');
   if (div.style.display == "block"){
