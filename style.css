@@ -154,7 +154,7 @@ nav .cloud2{
 }
 
 .filterDiv img{
-  height: 40%;
+  height: 30%;
   margin-bottom: 1rem; 
 }
 
@@ -210,4 +210,8 @@ nav .cloud2{
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+}
+
+.port_text{
+  font-family: 'Noto Sans KR', sans-serif;font-weight:300;text-align:center;background: #E7F4F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; 
 }
