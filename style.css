@@ -215,3 +215,15 @@ nav .cloud2{
 .port_text{
   font-family: 'Noto Sans KR', sans-serif;font-weight:300;text-align:center;background: #E7F4F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; 
 }
+
+.date{
+  text-align:center;background: #ECE7F9; margin-left: 5rem; margin-right: 5rem; padding: 2rem; 
+}
+
+.header2{
+  text-align:center;background: #E7F4F9; margin-left: 5rem; margin-right: 5rem; padding: 1.5rem; 
+}
+
+.timeline_list{
+  font-family: 'Noto Sans KR', sans-serif;font-weight:300;font-size: 1.5rem; margin-left: 5rem; margin-right: 5rem;
+}
