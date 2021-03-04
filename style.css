@@ -3,12 +3,10 @@ body{
   font-family: "Press Start 2P";
 }
 
-nav .rainbow{
-  margin-left: 36%; 
-}
+
 
 nav .avatar{ 
-  margin-left: 44.5%; 
+  margin-left: .75%; 
   margin-top: -2%; }
 
 nav .cloud1{
@@ -36,7 +34,7 @@ nav .navbar{
 
 @media only screen and (max-width: 500px){
  nav .rainbow{
-  margin-left: 2rem; 
+  margin-left: 1rem; 
 }
 
 nav .avatar{ 
@@ -140,11 +138,15 @@ nav .cloud2{
 
 
 
-.tooltip {
+
+.tooltip .tooltiptext {
+  display: none;
+}
+@media only screen and (min-width: 1000px){
+  .tooltip {
   position: relative;
   display: inline-block;
 }
-@media only screen and (min-width: 1000px){
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
