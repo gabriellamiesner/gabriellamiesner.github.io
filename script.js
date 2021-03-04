@@ -116,7 +116,7 @@ function w3RemoveClass(element, name) {
 function changeSize(){
    let b = document.querySelector('#about-text')
    if(window.innerWidth < 600){
-      b.style.fontSize = '.75rem'
+      b.style.fontSize = '1rem'
   } else{
       b.style.fontSize = '1.25rem'
   }
