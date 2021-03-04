@@ -111,3 +111,14 @@ function w3RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
+
+
+function changeSize(){
+   let b = document.querySelector('#about-text')
+   if(window.innerWidth < 600){
+      b.style.fontSize = '.75rem'
+  } else{
+      b.style.fontSize = '1.25rem'
+  }
+}
+

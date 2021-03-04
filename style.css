@@ -2,18 +2,25 @@ body{
   background: #9ED2E8; 
   font-family: "Press Start 2P";
 }
-
-
+.center{
+  text-align:center;
+}
+nav .rainbow{
+  width: 25rem; 
+}
 
 nav .avatar{ 
-  margin-left: .75%; 
-  margin-top: -2%; }
+  margin-left: .8%; 
+  margin-top: -2%;
+  height: 10rem; }
 
 nav .cloud1{
   margin-left: 25%;
+  width: 25rem;
 }
 nav .cloud2{
   margin-left: 45%;
+  width: 25rem;
 }
 
 nav h1{
@@ -50,6 +57,59 @@ nav .cloud2{
 
 }
 
+.avatar-pages{
+  margin-left: 5.4%;
+  margin-top: 0rem;
+  height: 3.2rem;
+}
+
+.rainbow-pages{
+  margin-top: .15%; 
+  margin-left: 5%;
+  height:2rem; 
+}
+
+.menu{
+  margin-left: 7rem; 
+  margin-top: -2%; 
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: row; 
+}
+#about-text{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight:300;
+   margin-left: 5rem; 
+   margin-right: 5rem; 
+}
+
+
+.social-icon{
+  height: 3rem; 
+}
+
+.buffer{
+  margin-left:-2rem;
+}
+
+.last{
+  margin-right: 3rem;
+}
+
+  .social-icons{
+    text-align:center; 
+  }
+
+
+.links{
+  text-decoration:none; 
+  color: black; 
+  font-weight:500;
+}
+
+.co-icons{
+  margin-right: 5%;
+}
 #sp2021{
   display: none; 
 }
