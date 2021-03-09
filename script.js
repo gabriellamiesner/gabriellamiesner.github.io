@@ -1,3 +1,13 @@
+function none(i){
+  i.style.display = "none";
+}
+function hide(){
+ let a = document.querySelectorAll('.port_text')
+  none(a[0]); 
+  none(a[1]); 
+  none(a[2]); 
+  none(a[3]); 
+}
 function showDiv() {
     div = document.getElementById('sp2021');
     if (div.style.display == "block"){
@@ -31,70 +41,53 @@ function showDiv2() {
 }
 function displayNeurosight(){
   div = document.getElementById('neurosight');
-  if (div.style.display == "block"){
+  if (div.style.display === "block"){
       div.style.display = "none";
     }else{
+    hide();
     div.style.display = "block";
-    document.getElementById('qwr').style.display = "none";
-    document.getElementById('climate_clock').style.display = "none";
-    document.getElementById('renew').style.display = "none";
-     document.getElementById('mstier').style.display = "none";
-
     }
 }
 
+
 function displayCrystalQwr(){
    div = document.getElementById('qwr');
-  if (div.style.display == "block"){
+  if (div.style.display === "block"){
       div.style.display = "none";
     }else{
+    hide();
     div.style.display = "block";
-    document.getElementById('neurosight').style.display = "none";
-    document.getElementById('climate_clock').style.display = "none";
-    document.getElementById('renew').style.display = "none";
-     document.getElementById('mstier').style.display = "none";
-
+    
     }
 }
 
 function displayRenew(){
    div = document.getElementById('renew');
-  if (div.style.display == "block"){
+  if (div.style.display === "block"){
       div.style.display = "none";
     }else{
+    hide();
     div.style.display = "block";
-    document.getElementById('neurosight').style.display = "none";
-    document.getElementById('climate_clock').style.display = "none";
-    document.getElementById('qwr').style.display = "none";
-     document.getElementById('mstier').style.display = "none";
-
     }
 }
 
 function displayClimateClock(){
    div = document.getElementById('climate_clock');
-  if (div.style.display == "block"){
+  if (div.style.display === "block"){
       div.style.display = "none";
     }else{
+    hide();
     div.style.display = "block";
-    document.getElementById('neurosight').style.display = "none";
-    document.getElementById('qwr').style.display = "none";
-    document.getElementById('renew').style.display = "none";
-    document.getElementById('mstier').style.display = "none";
-
     }
 }
 
 function displayMstier(){
    div = document.getElementById('mstier');
-  if (div.style.display == "block"){
+  if (div.style.display === "block"){
       div.style.display = "none";
     }else{
+    hide();
     div.style.display = "block";
-    document.getElementById('neurosight').style.display = "none";
-    document.getElementById('qwr').style.display = "none";
-    document.getElementById('renew').style.display = "none";
-    document.getElementById('climate_clock').style.display = "none";
     }
 }
 
