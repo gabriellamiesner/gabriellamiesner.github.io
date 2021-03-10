@@ -7,6 +7,7 @@ function hide(){
   none(a[1]); 
   none(a[2]); 
   none(a[3]); 
+  none(a[4]);
 }
 function showDiv() {
     div = document.getElementById('sp2021');
@@ -90,7 +91,15 @@ function displayMstier(){
     div.style.display = "block";
     }
 }
-
+function displayMiztier(){
+   div = document.getElementById('miztier');
+  if (div.style.display === "block"){
+      div.style.display = "none";
+    }else{
+    hide();
+    div.style.display = "block";
+    }
+}
 
 function filterSelection(c) {
   var x, i;
