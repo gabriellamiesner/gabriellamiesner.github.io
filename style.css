@@ -10,17 +10,18 @@ nav .rainbow{
 }
 
 nav .avatar{ 
-  margin-left: .8%; 
+  margin-left: .9%; 
   margin-top: -2%;
   height: 10rem; }
 
-nav .cloud1{
-  margin-left: 25%;
-  width: 25rem;
+.cloud1{
+  margin-left: 30%;
+  width: 15rem;
 }
-nav .cloud2{
-  margin-left: 45%;
-  width: 25rem;
+.cloud2{
+  margin-left: 50%;
+  margin-top: -2rem; 
+  width: 15rem;
 }
 
 nav h1{
@@ -110,17 +111,7 @@ nav .cloud2{
 .co-icons{
   margin-right: 5%;
 }
-#sp2021{
-  display: none; 
-}
 
-#f2020{
-  display: none; 
-}
-
-#sum2020{
-  display: none; 
-}
 
 
 
@@ -133,46 +124,24 @@ nav .cloud2{
 #data_sci{
   display: inline;
 }
-
-#neurosight{
-  display: none; 
-}
-
-#qwr{
-  display: none; 
-}
-
-#renew{
-  display: none; 
-}
-
-#climate_clock{
-  display: none; 
-}
-
-#mstier{
-  display: none; 
-}
-
-#miztier{
-  display: none; 
-}
-.filterDiv {
-  display: none;
-}
-
 .filterDiv img{
-  height: 30%;
+  height: 20rem;
   margin-bottom: 1rem; 
 }
+
 
 .show {
   display: inline;
 }
 
-.container {
-  margin-top: 20px;
-  overflow: hidden;
+.filterDiv{
+  margin-right: 4rem; 
+}
+
+.fl{
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;  
 }
 
 /* Style the buttons */
@@ -234,4 +203,8 @@ nav .cloud2{
 
 .timeline_list{
   font-family: 'Noto Sans KR', sans-serif;font-weight:300;font-size: 1.5rem; margin-left: 5rem; margin-right: 5rem;
+}
+
+.about-title{
+  margin-top: -.05rem; 
 }
