@@ -126,7 +126,7 @@ nav .cloud2{
   display: inline;
 }
 .filterDiv img{
-  height: 20rem;
+  width: 35rem;
   margin-bottom: 1rem; 
 }
 
@@ -142,7 +142,14 @@ nav .cloud2{
 .fl{
   display: flex;
   flex-direction: row; 
-  justify-content: center;  
+}
+
+.fl img{
+  margin-left: 4rem; 
+}
+
+.fl p{
+  margin-top: -.2rem; 
 }
 
 /* Style the buttons */
@@ -208,4 +215,8 @@ nav .cloud2{
 
 .about-title{
   margin-top: -.05rem; 
+}
+
+.dates{
+  color: #0B2586; 
 }
