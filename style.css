@@ -147,6 +147,9 @@ nav .cloud2{
 .fl img{
   margin-left: 4rem; 
 }
+.fl a{
+  width: 40rem; 
+}
 
 .fl p{
   margin-top: -.2rem; 
@@ -219,4 +222,25 @@ nav .cloud2{
 
 .dates{
   color: #0B2586; 
+}
+
+.none{
+  list-style-type: none;
+}
+
+.timeline_list{
+  font-weight: 500; 
+}
+
+.timeline_list ul{
+  color: black; 
+  font-weight: 300; 
+}
+
+.pu{
+  color: #433676; 
+}
+
+.timeline_list .links{
+  text-decoration: underline; 
 }
