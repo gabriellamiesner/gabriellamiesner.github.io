@@ -4,7 +4,7 @@
   "rewrites": [
     {
       "source": "/(.+)",
-      "destination": "https://lachlanjc.github.io/$1"
+      "destination": "https://gmiesner.github.io/"
     }
   ],
   "github": { "silent": true }
