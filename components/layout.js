@@ -54,7 +54,7 @@ export const Header = () => (
       'a + a': { mx: [3, 4] }
     }}
   >
-    <NavLink href="/blog" target="_blank">
+    <NavLink href="https://blog.gabriellamiesner.me" target="_blank">
       Blog
     </NavLink>
     <Link href="/resume" passHref>
