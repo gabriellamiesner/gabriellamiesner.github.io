@@ -16,6 +16,7 @@ const Meta = ({
     <meta key="og_url" property="og:url" content="https://gabriellamiesner.me/" />
     
     <title>{makeTitle(title, name)}</title>
+    <link rel="icon" href="    https://github.com/gmiesner.png" type="image/png" sizes="16x16">
     <meta key="og_title" property="og:title" content={makeTitle(title, name)} />
     <meta
       key="tw_title"
