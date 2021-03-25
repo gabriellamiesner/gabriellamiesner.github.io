@@ -1,5 +1,4 @@
 const withMDX = require('@next/mdx')()
 module.exports = withMDX({
-  pageExtensions: ['js', 'mdx'],
-  images: { domains: ['cdn.glitch.com'] }
+  pageExtensions: ['js', 'mdx']}
 })
