@@ -35,18 +35,6 @@ const theme = {
     secondary: palette.pink,
     muted: palette.lilac,
     accent: palette.yellow,
-    modes: {
-      dark: {
-        text: palette.light,
-        background: '#0c0b0a',
-        elevated: palette.darkless,
-        elevatedText: palette.light,
-        primary: palette.fuschia,
-        secondary: palette.pink,
-        accent: palette.yellow,
-        muted: palette.muted
-      }
-    }
   },
   fonts: {
     display:
