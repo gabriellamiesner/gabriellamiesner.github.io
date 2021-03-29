@@ -6,6 +6,8 @@ const makeTitle = (title, name) =>
 const Meta = ({
   name = 'Gabriella Miesner', // site name
   title = '', // page title
+  description = 'A developer at the intersection of tech and social change. Mizzou ’24, Information Technology. 18.',
+  image = 'https://avatars.githubusercontent.com/u/51331370?v=4',
   color = '#ff2467'
 }) => (
   <Head>
