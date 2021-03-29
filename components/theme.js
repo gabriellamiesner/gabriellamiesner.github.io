@@ -27,14 +27,14 @@ const theme = {
   ...base,
   colors: {
     ...palette,
-    text: palette.light,
-    background: palette.indigo,
-    elevated: palette.light,
-    elevatedText: palette.indigo,
-    primary: palette.fuschia,
-    secondary: palette.pink,
-    muted: palette.lilac,
-    accent: palette.yellow,
+        text: palette.light,
+        background: '#0c0b0a',
+        elevated: palette.darkless,
+        elevatedText: palette.light,
+        primary: palette.fuschia,
+        secondary: palette.pink,
+        accent: palette.yellow,
+        muted: palette.muted
   },
   fonts: {
     display:
