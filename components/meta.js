@@ -7,7 +7,7 @@ const Meta = ({
   name = 'Gabriella Miesner', // site name
   title = '', // page title
   description = 'A developer at the intersection of tech and social change. Mizzou ’24, Information Technology. 18.',
-  image = 'https://avatars.githubusercontent.com/u/51331370?v=4',
+  image = 'https://github.com/gmiesner.png',
   color = '#ff2467'
 }) => (
   <Head>
