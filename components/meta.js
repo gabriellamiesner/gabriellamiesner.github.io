@@ -1,23 +1,23 @@
 import Head from 'next/head'
 
 const makeTitle = (title, name) =>
-  title === name ? title : `${title}  ${name}`
+  title === name ? title : `${name}`
 
 const Meta = ({
   name = 'Gabriella Miesner', // site name
-  title = '', // page title
-  description = 'A developer at the intersection of tech and social change. Mizzou ’24, Information Technology. 18.',
+  title = 'Gabriella Miesner', // page title
+  description = `A developer at the intersection of tech and social good.
+Mizzou ’24, studying Information Technology.`,
   image = 'https://github.com/gmiesner.png',
   color = '#ff2467'
 }) => (
   <Head>
     <meta key="og_type" property="og:type" content="website" />
     <meta key="og_site" property="og:site_name" content={name} />
-    <meta key="og_url" property="og:url" content="https://gabriellamiesner.me/" />
-    
-    <title>{makeTitle(title, name)}</title>
-    <link rel="shortcut icon" href="https://github.com/gmiesner.png" />
+    <meta key="og_url" property="og:url" content="https://gabriellamiesner.me" />
+    <meta key="tw_site" name="twitter:site" content="@anxiousacrylics" />
 
+    <title>{makeTitle(title, name)}</title>
     <meta key="og_title" property="og:title" content={makeTitle(title, name)} />
     <meta
       key="tw_title"
@@ -31,7 +31,12 @@ const Meta = ({
       <meta key="tw_desc" name="twitter:description" content={description} />
     ]}
 
-    
+    {image && [
+      <meta key="og_img" property="og:image" content={image} />,
+      <meta key="tw_card" name="twitter:card" content="summary_large_image" />,
+      <meta key="tw_img" name="twitter:image" content={image} />
+    ]}
+
     <meta key="theme_color" name="theme-color" content={color} />
     <meta key="tile_color" name="msapplication-TileColor" content={color} />
 
