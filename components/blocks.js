@@ -25,12 +25,13 @@ export const Tiles = props => (
   />
 )
 
-export const Tile = ({ href, id, alt, children }) => (
+export const Tile = ({ href, id, alt, children, target}) => (
   <Card
     variant="interactive"
     as="a"
     href={href}
     id={id}
+    target = {target}
     sx={{
       bg: 'elevated',
       color: 'elevatedText',
