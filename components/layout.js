@@ -55,8 +55,8 @@ export const Header = () => (
     }}
   >
     
-    <NavLink href="/classes" target="_blank">
-      Classes
+    <NavLink href="/" target="">
+      Home
     </NavLink>
     <Link href="/resume" passHref>
       <NavLink>Résumé</NavLink>
