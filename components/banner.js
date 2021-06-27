@@ -89,7 +89,7 @@ const Banner = ({ children }) => (
           }}
         >
           A developer at the intersection of tech and social good.
-          <br />Mizzou&nbsp;’24, studying Information Technology.
+          <br />
         </Text>
         {children}
       </Slide>
