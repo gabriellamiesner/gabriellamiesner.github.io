@@ -125,6 +125,10 @@ justify-content: center;
 .socials a{
     margin-right: 2rem;
 }
+
+.nav ul .fairy{
+    font-size: 4rem;
+}
 @media only screen and (max-width: 1000px) {
 
 .hello img{
@@ -151,5 +155,65 @@ justify-content: center;
     margin-top: 2rem;
 }
 
+.nav ul{ 
+    list-style-type: none;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;    
+
+}
+
+.nav ul .fairy{
+    font-size: 5rem;
+}
+
+.intro .p{
+    text-align: center;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+
+    /* display: inline-block; */
+}
+
+.intro .p p{
+    margin-top: .5rem;
+}
+
+.hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.hello img{
+    width: 40rem; 
+    height: 40rem;
+margin-left: auto;
+margin-right: auto;}
+
+.intro h1{
+    font-size: 3.75rem;
+    width: 100%;
+    text-align: center;
+}
+
+.project img{
+    height: 30rem;
+    border-radius: 5%;
+}
+
+.project .text{
+    width: 90%;
+}
+
+.socials{
+    margin-top: 2rem;;
+}
+
+.socials a svg{
+    width: 7rem;
+    height: 7rem;
+}
 
 }
