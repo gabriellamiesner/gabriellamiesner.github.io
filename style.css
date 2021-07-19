@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    background: #282c34;
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: white; 
+}
+
+a{ 
+    color: white; 
+}
+.rainbow{
+    height: 5rem; 
+    background-image: linear-gradient(#ec3750 0%, #ec3750 16.6666%,  #ff8c37 16.6666%, #ff8c37 33.333%, #f1c40f 33.333%, #f1c40f 50%, #33d6a6 50%, #33d6a6 66.6666%, #338eda 66.6666%, #338eda 83.3333%, #8067C3 83.3333%, #8067C3 100%)
+}
+.intro{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    margin-top: -1rem;
+
+}
+.hello{
+    display: flex;
+justify-content: center;
+    flex-direction: row;
+
+}
+
+.intro .p{
+    text-align: right;
+    margin-right: 2rem;
+    font-size: 1.25rem;
+    margin-top: -1rem;
+
+    /* display: inline-block; */
+}
+
+.p p span{
+    font-size: 2.15rem;
+}
+
+.intro h1{
+    font-size: 2.75rem;
+}
+
+.p a{
+    color: #338eda;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.p a:hover{
+    text-decoration: underline;
+}
+
+.hello img{
+    height: 15rem; 
+    margin-top: 2%;
+}
+
+.intro .p p{
+    margin-top: -.75rem;
+}
+
+.nav ul{ 
+    list-style-type: none;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;    
+
+}
+
+.nav ul li{
+    margin-right: 2rem;
+}
+
+.nav ul li a{
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.project img{
+    height: 20rem;
+    border-radius: 5%;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.project .text{
+    width: 35rem;
+}
+
+.project .text a{
+    color: #8067C3;
+    text-decoration: none;
+}
+
+.project .text h1{
+    font-size: 2.25rem;
+}
+
+.project .text p{
+    font-size: 1.25rem;
+}
+.project .text a:hover{
+    text-decoration: underline;
+}
+.project .text h1 a{
+    color: white;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.socials a{
+    margin-right: 2rem;
+}
+@media only screen and (max-width: 1000px) {
+
+.hello img{
+    height: 15rem; 
+    margin-top: 7%;
+}
+.intro .p{
+    text-align: right;
+    margin-right: 2rem;
+    font-size: 1rem;
+    margin-top: -1rem;
+
+    /* display: inline-block; */
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+
+.project{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+
+}
