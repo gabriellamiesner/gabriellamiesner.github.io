@@ -12,15 +12,13 @@ const SomeText = () => {
       I am a student at the University of Missouri, 🐯 studying Information Technology. In 2020, I graduated from <Link fontWeight={'bold'} href = "https://launchcode.org" isExternal>
           LaunchCode's </Link> Web Development Bootcamp. 🚀 </Text>
 <br />
-          <Text>Currently building a web app to change how we shop online at <Link fontWeight={'bold'} href = 'https://shopallter.com' isExternall>
-          Allter</Link> 👗 and learning more about React. I specialize in Front End Development and have some experience with Data Analysis. 📊
-      </Text>
+          <Text> I specialize in Front End Development and have some experience with Data Analysis. 📊</Text>
         <br />
        <Link href = "https://github.com/gabriellamiesner" isExternal>
            Github  <ExternalLinkIcon mx='2px' />
        </Link>
         <br />
-        <Link href = "https://linkedin.com/in/gmiesner" isExternal>
+        <Link href = "https://linkedin.com/in/gabriellamiesner" isExternal>
                 Linkedin <ExternalLinkIcon mx='2px' />
         </Link>
         <br />
