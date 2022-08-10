@@ -21,7 +21,8 @@ const Home = () => {
         <Heading>
             Work Experience
         </Heading>
-        <Job time = "October 2021 - Present" place = "Allter" division = "Web Development + UX Design" languages = "JavaScript (React), Figma" title = "Software Engineering Intern" description = "Designed and Built front end of web app using Figma and React. Created temporary business landing page using Bootstrap."/>
+        <Job time = "May 2022 - August 2022" place = "Bank of America" division = "Front End Development + UX Design" languages = "" title = "Software Engineering Intern" description = "Designed and Built front end of desktop app using WPF and XAML technologies."/>
+        <Job time = "October 2021 - April 2022" place = "Allter" division = "Web Development + UX Design" languages = "JavaScript (React), Figma" title = "Software Engineering Intern" description = "Designed and Built front end of web app using Figma and React. Created temporary business landing page using Bootstrap."/>
         <Job time = "September 2021 - October 2021" place = "Allter" division = "Data Visualization" languages = "Python (Plotly, Pandas)" title = "Data Science Intern" description = "Cleaned and Visualized 200k lines of relevant business data using Plotly, providing business insights for improving company strategy and pitch competitions."/>
         <Job time = "May 2021 - August 2021" place = "Union Pacific"  division = "Web Development + UX Design" languages = "JavaScript (Angular), Figma" title = "Software Engineering Intern" description = "Designed and Built front end of web app interfacing with Jira using Figma and Angular."/>
 
