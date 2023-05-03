@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <h1> </h1>
+  <script src="script.js"></script>
+<div style = "text-align: center;margin-top:15%;">
+  <h1> Hi, I'm Gabriella Miesner. ✨ 🪩</h1>
+  <p> I am an Information Technology student at the University of Missouri, graduating May 2024.</p>
+<p>Previously, I interned at both Bank of America and Union Pacific as a Software Engineer. </p>
+  <p>If you would like to learn more or connect with me, find me on <a href = "https://www.linkedin.com/in/gabriellamiesner/" target = "_blank" style = "color: black;">Linkedin</a>. </p>
+</div>
+</body>
+
+</html>
