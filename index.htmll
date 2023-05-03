@@ -7,11 +7,18 @@
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W94JHE7S31"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-W94JHE7S31');
+    </script>
 <body>
 
   <h1> </h1>
-  <script src="script.js"></script>
 <div style = "text-align: center;margin-top:15%;">
   <h1> Hi, I'm Gabriella Miesner. ✨ 🪩</h1>
   <p> I am an Information Technology student at the University of Missouri, graduating May 2024.</p>
